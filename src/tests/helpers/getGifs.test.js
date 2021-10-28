@@ -3,15 +3,15 @@ import { getGifs } from '../../helpers/getGifs';
 
 describe('Pruebas con getGifs Fecth', () => {
     
-    test('debe de traer 10 elementos', async() => {
+    test('debe de traer 15 elementos', async() => {
         
-        const gifs = await getGifs('One Punch');
+        const gifs = await getGifs('Gintama');
 
-        expect( gifs.length ).toBe( 10 );
+        expect( gifs.length ).toBe( 15 );
 
     })
 
-    test('debe de traer 10 elementos', async() => {
+    test('debe de traer 15 elementos', async() => {
         
         const gifs = await getGifs('');
 

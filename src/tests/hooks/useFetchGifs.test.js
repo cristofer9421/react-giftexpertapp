@@ -1,7 +1,7 @@
 import { useFetchGifs } from '../../hooks/useFetchGifs'
 import { renderHook } from '@testing-library/react-hooks';
 
-describe('Pruebas en el hook useFetchGifs', () => {
+describe('Pruebas en el hook', () => {
 
 
     test('debe de retornar el estado inicial', async() => {
